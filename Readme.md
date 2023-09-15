@@ -31,13 +31,13 @@ clang -E igraph_lib.c -o igraph_lib.i -include  /usr/include/dlang/ldc/importc.h
 
 Compile with D compiler (which supports ImportC):
 ```sh
-ldc2 d_test_app.d ./igraph_lib.i -L/usr/lib/libigraph.so
+ldc2 igraph_test.d ./igraph_lib.i -L/usr/lib/libigraph.so
 ```
 
 #### 2. Auto preprocessing
 In later versions of D compilers (at least DMD 104.0, LDC 1.34), you can ask the compiler to do all job:
 ```sh
-ldc2 d_test_app.d ./igraph_lib.c -L/use/lib/libigraph.so
+ldc2 igraph_test.d ./igraph_lib.c -L/use/lib/libigraph.so
 ```
 
 ## Tested
