@@ -4,7 +4,7 @@ WIP
 This is the repository for D bindings of [igraph](https://igraph.org/) library for the network analysis.
 It is based on [igraph C API](https://igraph.org/c/) and ImportC functionality.
 
-Currently only simplest example from Tutorial was tested.
+Currently only examples from Tutorial were tested.
 More examples are coming.
 
 ## Building
@@ -50,7 +50,8 @@ ldc2 igraph_test.d ./igraph_lib.c -L/use/lib/libigraph.so
 
 - [ ] Inline C macros
 - [ ] Make code more iDiomatic
-- [ ] Prepare more examples from Tutorials/real analysis
+- [X] Prepare examples from Tutorial
+- [ ] Prepare Simple examples from C repository
 
 ## Contributing
 
