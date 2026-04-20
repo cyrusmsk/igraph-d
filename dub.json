@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"copyright": "Copyright © 2026, Sergei Giniatulin",
+	"description": "D bindings for igraph",
+	"license": "MIT",
+	"name": "igraph-d"
+}

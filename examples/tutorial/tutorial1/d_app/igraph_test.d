@@ -1,5 +1,5 @@
 import std;
-import igraph_lib;
+import igraph;
 
 enum NULL = null;
 
@@ -7,7 +7,7 @@ void main() {
   igraph_integer_t num_vertices = 1000;
   igraph_integer_t num_edges = 1000;
   igraph_real_t diameter;
-  igraph_t graph;
+  igraph_t graph = igraph_t();
 
   igraph_rng_seed(igraph_rng_default(), 42);
 
